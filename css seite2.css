@@ -1,0 +1,87 @@
+h1
+{
+font-size: 40px;
+font-family: fantasy;
+line-height: 1.1;
+}
+h2
+{
+font-size: 30px;
+line-height: 1.2;
+}
+
+body
+{
+ background: rgba(255, 237, 179, 0.94);
+  color: #2b2115;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 24px;
+}
+img
+{
+float: right;
+max-width: 40%;
+height: auto;
+margin: 0 0 20px 24px;
+}
+li
+{
+font-size: 18px;
+line-height: 1.5;
+list-style-type: circle;
+}
+p
+{
+font-size: 12px;
+font-family: fantasy;
+line-height: 1.2;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #fff8df;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  background-color: #f6ca45;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e5ad22;
+  color: black;
+   box-shadow:
+    2px 0px 2px rgb(0 0 0 / 0.5),
+    inset 3px 3px 3px rgb(255 255 255 / 0.5);
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 0.5);
+  transition: all 0.3s;
+}
+html {
+  background-color: #ffedb3;
+  background-image: url("bee-side-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content-box {
+  background-color: #f4d88f;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px 28px;
+  margin-top: 24px;
+}
+
